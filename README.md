@@ -1,5 +1,7 @@
+#### Description
 
-The templates directory is the place to put the list of files /
-templates for the generator to consume.
+OAuth2 Javascript Client for รร`implicit` and `password` grant flows
 
-It is usually next to your generator implementation, `index.js`.
+#### Info
+
+Learn [more](http://tools.ietf.org/html/rfc6749) 

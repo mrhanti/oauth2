@@ -1,6 +1,6 @@
 #### Description
 
-OAuth2 Javascript Client for รร`implicit` and `password` grant flows
+OAuth2 Javascript Client for `implicit` and `password` grant flows
 
 #### Info
 

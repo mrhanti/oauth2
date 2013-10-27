@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha</title>
+    <link rel="stylesheet" href="lib/mocha/mocha.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="lib/mocha/mocha.js"></script>
+    <script>mocha.setup('bdd');</script>
+    <script src="lib/expect.js"></script>
+    <script src="lib/sinon.js"></script>
+    <script src="lib/jquery.js"></script>
+
+    <!-- Source Files -->
+    <script src="../src/oauth2.js"></script>
+    <script src="../src/helpers.js"></script>
+    <script src="../src/ajax.js"></script>
+
+    <!-- Spec Files -->
+    <script src="./spec/oauth2_spec.js"></script>
+    <script src="./spec/oauth2_client_spec.js"></script>
+    <!-- // <script src="./spec/oauth2_token_spec.js"></script> -->
+
+    <script>mocha.run();</script>
+  </body>
+</html>
